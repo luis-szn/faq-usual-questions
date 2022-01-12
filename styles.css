@@ -11,7 +11,9 @@
 #answer1,
 #answer2,
 #answer3,
-#answer4{
+#answer4,
+.fa.fa-angle-down:not(.show),
+.fa.fa-angle-up{
     visibility: hidden;
     display: none;
 }
@@ -19,7 +21,9 @@
 #answer1.show,
 #answer2.show,
 #answer3.show,
-#answer4.show{
+#answer4.show,
+.fa.fa-angle-down.show,
+.fa.fa-angle-up.show{
     visibility: visible;
     display:block;
 }
@@ -80,6 +84,8 @@
     margin-top: .8rem ;
     font-weight: 300;
 }
+
+
 
 .fa-angle-down{
     margin-top: .8rem ;
